@@ -1,0 +1,3 @@
+_target_: src.datasets.RecSysDataset
+name: Yambda
+url: https://huggingface.co/datasets/yandex/yambda

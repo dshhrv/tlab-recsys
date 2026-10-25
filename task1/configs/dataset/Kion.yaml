@@ -1,0 +1,3 @@
+_target_: src.datasets.RecSysDataset
+name: KION
+url: https://github.com/irsafilo/KION_DATASET
