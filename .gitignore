@@ -11,6 +11,10 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -25,7 +29,6 @@ data_parsed/
 checkpoints/
 *.pt
 *.pth
-*.ipynb
 *.ckpt
 *.safetensors
 *.onnx
@@ -37,6 +40,10 @@ artifacts/
 catboost_info/
 clearml_cache/
 mlruns/
+wandb/
+runs/
+lightning_logs/
+events.out.tfevents.*
 
 # Logs and temporary files
 *.log
