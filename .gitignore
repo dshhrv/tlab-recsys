@@ -1,0 +1,60 @@
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+data/
+data_parsed/
+*.parquet
+*.arrow
+
+# Model checkpoints and weights
+checkpoints/
+*.pt
+*.pth
+*.ipynb
+*.ckpt
+*.safetensors
+*.onnx
+
+# Experiment outputs
+outputs/
+results/
+artifacts/
+catboost_info/
+clearml_cache/
+mlruns/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+.cache/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Secrets
+.env
+
+.env.*
+!.env.example
+clearml.conf
